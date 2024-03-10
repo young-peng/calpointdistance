@@ -10,6 +10,10 @@
     "type": "git",
       "url": "git+https://github.com/young-peng/calpointdistance"
   },
+  "dependencies":{
+    "ethers": "5.7",
+    "ethers-eip712": "^0.2.0"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC"

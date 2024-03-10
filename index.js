@@ -1,3 +1,6 @@
+const ethers = require('ethers');
+const provider = new ethers.providers.JsonRpcProvider(url);
+const wallet = new ethers.Wallet(privateKey, provider);
 class Graph {
     constructor() {
       if (!(this instanceof Graph)) return new Graph() //防止重复创建实例
